@@ -1,0 +1,183 @@
+/* Website Layout Styling */
+
+.title{ /* Requirement-2.C */
+  visibility: hidden; /* Requirement-2.16 */
+}
+
+body {
+  background-color:oldlace; /* Requirement-2.4 */
+  margin: 0;
+  padding: 0;
+}
+
+.middle {
+  width: 75%; /* Requirement-2.7 */
+  height: 100%; /* Requirement-2.10 */
+  background: rgb(204, 204, 204);
+  float: initial; /* Requirement-2.11 */
+  padding: 15px; /* Requirement-2.6 */
+  text-align: left;
+  margin: auto;
+}
+
+.left {
+  width: 50%;  
+  height: 100%; 
+  background: rgb(63, 63, 63);
+  float: left;
+  padding: 0px; 
+  margin: auto;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: rgb(63, 63, 63);
+  float: right;
+  padding: 0px;
+  margin: auto;
+}
+
+.footer {
+  width: 75%; 
+  height: 100%;
+  background: rgb(156, 156, 156);
+  float: initial; 
+  padding: 15px; 
+  text-align: center;
+  clear: both; /* Requirement-2.13 */
+  margin: auto;
+  position: relative;
+}
+
+/* ################################ */
+
+/* Menu Bar Styling */
+ul.menu {
+  font-size: 15px; /* Requirement-2.1 */
+  font-family: "Verdana";
+  list-style-type: none; /* Requirement-2.8 */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Requirement-2.14 */
+  position: fixed; /* Requirement-2.15 */
+  top: 0;
+  width: 100%;
+  background-color:#242424;
+}
+
+li {
+  float: left;
+  font-family: "Tahoma";
+  font-size: 15px;
+}
+
+li a {
+  display: block; /* Requirement-2.12 */
+  color: white;
+  text-align: center; /* Requirement-2.2 */
+  padding: 14px 16px; /* Requirement-2.9 */
+  text-decoration: none;
+}
+
+li a:hover { /* Requirement-2.E */
+  background-color: #9e3a53;
+}
+
+.active {
+  background-color: #6a0c1a;
+}
+
+/* ################################ */
+
+/* Text and Other Misc Styling */
+p { /* Requirement-2.A */
+  font-size: 18px;
+  font-family: "Tahoma"; 
+  color: #6a0c1a; /* Requirement-2.3 */
+}
+
+h1, h2, h3, h4, h5, h6, figcaption, summary, tr, td { /* Requirement-2.B */
+  font-family: "Verdana"; 
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 75px 50px 75px 50px;
+}
+
+table {
+  border: 2px solid black; /* Requirement-2.5 */
+  width: 50%;
+  border-spacing: 30px;
+}
+
+table tr th, table tr td { /* Requirement-2.F */
+  text-align: center;
+  color: rgb(179, 14, 14);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.images {
+  width: auto; 
+  height: auto; 
+  background: rgb(175, 174, 174);
+  float: initial; 
+  padding: 15px;
+  text-align: center;
+  border-radius: 12px;
+  margin: auto;
+}
+
+.summary { /* Requirement-2.H */
+  width: auto; 
+  height: auto; 
+  background: rgb(185, 185, 185);
+  float: initial;
+  padding: 15px; 
+  text-align: left;
+  margin: auto;
+  position: static;
+  z-index: 1;
+}
+
+.details { /* Requirement-2.G */
+  width: auto; 
+  height: auto; 
+  background: rgb(185, 185, 185);
+  float: initial;
+  padding: 15px; 
+  text-align: left;
+  margin: auto;
+  position: static;
+  z-index: 1;
+  color:rgb(196, 57, 57);
+}
+
+.customtable {
+  width: auto; 
+  height: auto; 
+  background: rgb(185, 185, 185);
+  float: initial;
+  padding: 15px; 
+  text-align: center;
+  margin: auto;
+}
+
+.stackedimage {
+  width: auto; 
+  height: auto; 
+  margin: auto;
+  position: absolute;
+  z-index: -1; /* Requirement-2.17 */
+}
+
+#aboutme { /* Requirement-2.D */
+  color: rgb(0, 0, 0);
+}
+
+
+/* ################################ */
